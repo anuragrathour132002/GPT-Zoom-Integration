@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Enter Zoom Meeting Link</title>
+</head>
+
+<body>
+  <label for="meetingLink">Zoom Meeting Link:</label>
+  <input type="text" id="meetingLink" required>
+  <button id="joinButton" onclick="joinMeeting()">Join Meeting</button>
+  <script>
+    function joinMeeting() {
+      const meetingLink = document.getElementById('meetingLink').value;
+      localStorage.setItem('meetingLink', meetingLink);
+      window.location.href = '/zoom.html';
+    }
+  </script>
+</body>
+
+</html>

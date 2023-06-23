@@ -1,0 +1,24 @@
+{
+    "dependencies": {
+        "axios": "^1.4.0",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.1.4",
+        "express": "^4.18.2",
+        "jsrsasign": "^10.8.6",
+        "nodemon": "^2.0.22",
+        "openai": "^3.3.0",
+        "openapi": "^1.0.1",
+        "say": "^0.16.0"
+    },
+    "scripts": {
+        "start": "node index.cjs"
+    },
+    "name": "zoom-gpt-bot",
+    "type": "module",
+    "version": "1.0.0",
+    "main": "index.cjs",
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
